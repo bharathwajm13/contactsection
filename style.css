@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+.title h4{
+    color: gray;
+    font-size: 20px;
+    padding-top: 4px;
+}
+.title h1{
+    padding: 20px 0px;
+    font-size: 35px;
+}
+.title h4::after{
+    content: "";
+    display: inline-block;
+    background-color:  #FFB534;
+    width: 8%;
+    height: 2px;
+	margin:5px;
+}
+.col1{
+    width: 100%;
+}
+.col2{
+    width: 40%;
+    padding: 10px;
+}
+.location,.email,.call{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+.loc_icon,.email_icon,.call_icon{
+    background-color: #FFB534;
+    color: black;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.loc_details, .email_details, .call_details{
+	width:80%
+}
+.loc_details h4, .email_details h4, .call_details h4{
+    font-size: 22px;
+    font-family: "Rubik";
+}
+.loc_details p, .email_details p, .call_details p{
+    font-size: 14px;
+    color: #4f4b4b;
+    font-weight: 900;
+}
+.col3{
+    width: 60%;
+    padding: 10px;
+}
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.name,.mail{
+    width: 50%;
+    padding: 10px;
+}
+.sub,.msg,.button{
+    width: 100%;
+    padding: 10px;
+}
+.forms input,.forms textarea{
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #D8D9DA;
+    border-radius: 5px;
+    font-size: 15px;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: #FFB534;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    padding: 10px;
+}
